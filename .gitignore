@@ -1,0 +1,23 @@
+# Linux kernel module build outputs
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.*.cmd
+.tmp_versions/
+
+# Local build and coverage output
+/build/
+/dist/
+*.gcda
+*.gcno
+*.gcov
+
+# Editors and operating systems
+.DS_Store
+*~
+*.swp
+*.swo
